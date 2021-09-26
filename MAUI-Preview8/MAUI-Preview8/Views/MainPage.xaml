@@ -7,41 +7,51 @@
         <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">
 
             <Label 
-                Text="Hello, World!"
+                Text="Hola Mundo!"
                 Grid.Row="0"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label 
-                Text="Welcome to .NET Multi-platform App UI"
+                Text="Pruebas con Maui - Preview 8"
                 Grid.Row="1"
                 SemanticProperties.HeadingLevel="Level1"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
                 HorizontalOptions="Center" />
-
-            <Label 
-                Text="Current count: 0"
-                Grid.Row="2"
-                FontSize="18"
+            <Button 
+                Text="Rotar Imagen"
                 FontAttributes="Bold"
-                x:Name="CounterLabel"
+                Grid.Row="2"
+                SemanticProperties.Hint="Navegar al formulario de Login"
+                Clicked="OnRotarImagen"
                 HorizontalOptions="Center" />
 
             <Button 
-                Text="Click me"
+                Text="Sumar"
                 FontAttributes="Bold"
                 Grid.Row="3"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
+            
 
-            <Image Grid.Row="4"
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+            <Image Grid.Row="5"
+                Source="pearl_jam_alive.png"
+                x:Name="LogoPJ"
+                SemanticProperties.Description="Pearl Jam Logo!"
                 WidthRequest="250"
                 HeightRequest="310"
+                HorizontalOptions="Center" />
+
+
+            <Label 
+                Text="Current count: 0"
+                Grid.Row="6"
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="CounterLabel"
                 HorizontalOptions="Center" />
 
         </Grid>

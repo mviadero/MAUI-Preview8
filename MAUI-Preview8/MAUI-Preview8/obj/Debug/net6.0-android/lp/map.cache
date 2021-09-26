@@ -4,11 +4,6 @@ Microsoft.Maui.Controls.dll
 Microsoft.Maui.Controls.Xaml.dll
 Microsoft.Maui.dll
 Microsoft.Maui.Essentials.dll
-Microsoft.Maui.Controls.aar
-Microsoft.Maui.Controls.Compatibility.aar
-Microsoft.Maui.Controls.Compatibility.Android.FormsViewGroup.aar
-Microsoft.Maui.aar
-Microsoft.Maui.Essentials.aar
 Microsoft.Maui.Graphics.dll
 Xamarin.Android.Glide.DiskLruCache.dll
 Xamarin.Android.Glide.dll
@@ -115,5 +110,10 @@ androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.exifinterface.exifinterface.aar
 androidx.browser.browser.aar
+Microsoft.Maui.Controls.aar
+Microsoft.Maui.Controls.Compatibility.aar
+Microsoft.Maui.Controls.Compatibility.Android.FormsViewGroup.aar
+Microsoft.Maui.aar
+Microsoft.Maui.Essentials.aar
 Xamarin.AndroidX.Browser.aar
 Xamarin.AndroidX.Concurrent.Futures.aar
